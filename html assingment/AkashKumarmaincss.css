@@ -1,0 +1,134 @@
+.vdo{
+	
+	margin-top:40px;
+	margin-left:30px;
+}
+#name{
+color:red;
+font-size:60px;
+text-shadow: 2px 2px blue;
+
+}
+
+#img1{
+	
+	
+	margin-top:10px;
+	position:absolute;
+	left:1100px;
+	top:100px;
+	height: 100px;
+  width: 150px;
+	
+}
+#img2{
+	
+	
+	margin-top:20px;
+	position:absolute;
+	left:1100px;
+	top:200px;
+	height: 100px;
+  width: 150px;
+	
+}
+#img3{
+	
+	
+	margin-top:30px;
+	position:absolute;
+	left:1100px;
+	top:300px;
+	height: 100px;
+  width: 150px;
+	
+}
+#img4{
+	
+	
+	margin-top:40px;
+	position:absolute;
+	left:1100px;
+	top:400px;
+	height: 100px;
+  width: 150px;
+	
+}
+#img5{
+	
+	
+	margin-top:50px;
+	position:absolute;
+	left:1100px;
+	top:500px;
+	height: 100px;
+  width: 150px;
+	
+}
+#des1{
+position:absolute;
+left:950px;
+top:120px;
+}
+
+#des2{
+position:absolute;
+left:950px;
+top:220px;
+}
+
+#des3{
+position:absolute;
+left:950px;
+top:340px;
+}
+
+#des4{
+position:absolute;
+left:950px;
+top:450px;
+}
+
+#des5{
+position:absolute;
+left:950px;
+top:560px;
+}
+#likebutton{
+	position:absolute;
+	left:40px;
+	top:635px;
+}
+#dislikebutton{
+	position:absolute;
+	left:100px;
+	top:635px;
+	
+}
+#commentsec{
+	position:absolute;
+	left:40px;
+	top:675px;
+	color:blue;
+	font-style: italic;
+	font-size:20px;
+}
+#comment1{
+position:absolute;
+top:720px;
+left:50px;
+}
+
+#comment2{
+position:absolute;
+top:750px;
+left:50px;
+
+}
+
+#comment3{
+position:absolute;
+top:780px;
+left:50px;
+
+}

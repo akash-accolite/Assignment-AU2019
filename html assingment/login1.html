@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="login1css.css">
+</head>
+
+
+<body>
+<form id ="idform" onsubmit="gtfunction()">
+login <br>
+  Email:<br>
+  <input type="text" name="firstname" id="username" value="name@">
+  <br>
+  Password:<br>
+  <input type="password" name="lastname" id="userpassword" value="password">
+  <br><br>
+  <input  type="submit" value="Submit">
+</form> 
+<script>
+function gtfunction()
+{
+
+var entername = document.getElementById("username").value;
+var enterpassword = document.getElementById("userpassword").value;
+var realname=localStorage.getItem('username');
+var realpassword=localStorage.getItem('password');
+if(entername===realname)
+	{
+	
+	//window.location = "akashkumarmain.html";
+	alert("login Successful!");
+	
+	
+	}
+else
+	{
+		alert("Password is wrong");
+	}
+
+//alert("enter uername is"+entername+"entered password is"+enterpassword+"real name is"+realname+"real password is"+realpassword);
+}
+</script>
+
+
+</body>
+</html>

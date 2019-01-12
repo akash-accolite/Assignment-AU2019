@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="logincss.css">
+</head>
+<body>
+ 
+<h2 id="login">Sign up</h2>
+
+<div id="pageform">
+<form onsubmit="getfunction()">
+  Email:<br>
+  <input type="text" name="firstname" id="username" value="name@">
+  <br>
+  Password:<br>
+  <input type="password" name="lastname" id="userpassword"value="password">
+  <br><br>
+  <input  type="submit" value="Submit">
+</form> 
+</div>
+ 
+
+<script>
+function getfunction()
+{
+	var uname = document.getElementById("username").value;
+	var upassword = document.getElementById("userpassword").value;
+	localStorage.setItem('username', uname);
+	localStorage.setItem('password', upassword);
+	alert("sign up Done!");
+}
+
+</script>
+<a href="login1.html">click here to login!</a>
+</body>
+</html>
