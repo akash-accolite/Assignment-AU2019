@@ -1,0 +1,11 @@
+The main difference between abstract and factory is that with the Factory pattern, 
+you produce instances of implementations of a particular interface.
+But  with the Abstract Factory pattern, you provide a way for anyone to provide 
+their own factory. 
+
+
+With Factory method ,  You have a factory that creates objects that derive from a particular base class
+
+With Abstract factory, You have a factory that creates other factories, and these factories in turn 
+create objects derived from base classes. You do this because you often don't just want to create a 
+single object , you want to create a collection of related objects.
